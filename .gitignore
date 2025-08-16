@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs and artifacts
+outputs/
+*.joblib
+*.pkl
+
+# OS
+.DS_Store
+
+# Data (do not commit large raw data files)
+data/
+*.csv
+
+# Logs
+logs/
+
+# VSCode
+.vscode/
