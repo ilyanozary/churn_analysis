@@ -69,18 +69,3 @@ README — Question 1 (Persian)
   - پایین‌ترین نرخ ریزش: persona `cluster 14` — ≈ 18.7%
 - مدل مرجع (خلاصه): LogisticRegression — ROC‑AUC ≈ 0.739، PR‑AUC ≈ 0.644
 
-فایل‌های خروجی (مسیر محلی)
-- `/Users/khaneapple/Documents/freelance/analytic_ai/phase1/question_1_churn_definition/outputs/phase1_q1_churn_by_persona.csv`
-- `/Users/khaneapple/Documents/freelance/analytic_ai/phase1/question_1_churn_definition/outputs/phase1_q1_churn_persona_by_expertise.csv`
-
-محدودیت‌ها و نکات احتیاطی
-- تعریف churn در این نوت‌بوک بر اساس اختلاف دو ستون duration است؛ اگر داده‌های timestamp دقیق (مثلاً تاریخ آخرین فعالیت) در دسترس باشند، تحلیل بقا (survival analysis / time-to-churn) دقیق‌تر و معتبرتر خواهد بود.
-- مقادیر و اولویت‌ها حساس به مقدار `THRESHOLD_GAP_MONTHS` و پیش‌پردازش داده‌ها هستند؛ پیش از تصمیم‌گیری استراتژیک، تحلیل حساسیت با آستانه‌های مختلف توصیه می‌شود.
-
-پیشنهادات عملی بعدی
-- رسم heatmap برای persona × expertise و ذخیره تصویر برای گزارش.
-- اجرای تحلیل حساسیت با آستانه‌های 6، 9 و 12 ماه و گزارش تغییرات در جدول.
-- اضافه‌کردن یک صفحهٔ خلاصهٔ انگلیسی برای ذی‌نفعان بین‌المللی.
-
-English one‑line summary
-- We defined churn as inactive_gap >= 12 months, computed churn rates per persona, saved CSV outputs, and obtained an overall churn rate ≈ 37.5% (run on 2025-08-16).
