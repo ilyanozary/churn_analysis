@@ -1,4 +1,4 @@
-README — Question 1 (Persian)
+README — Question 1 
 
 موضوع: تعریف Churn برای هر پرسونا
 
