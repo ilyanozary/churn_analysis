@@ -50,11 +50,7 @@ README — Question 1 (Persian)
   - کار انجام‌شده: خروجی‌ها به صورت CSV در پوشهٔ مربوط به این سوال ذخیره شدند.
   - چرایی: تولید خروجی‌های قابل‌اشتراک برای گزارش‌دهی و داشبورد.
 
-چگونه نوت‌بوک را اجرا/بازتولید کنیم (quick reproducibility)
-1) باز کردن نوت‌بوک: `/Users/khaneapple/Documents/freelance/analytic_ai/phase1_q1_churn_definition.ipynb`.
-2) در صورت نیاز مقدار آستانه را در سلول مربوطه تغییر دهید (`THRESHOLD_GAP_MONTHS`).
-3) هر سلول را از بالا به پایین اجرا کنید (Run All cells) تا خروجی‌های CSV تولید شوند.
-4) خروجی‌ها در مسیر زیر ذخیره می‌شوند: `phase1/question_1_churn_definition/outputs`.
+
 
 خلاصهٔ نتایج (اعداد از اجرای نمونه در 2025-08-16)
 - اندازهٔ داده‌ها:
